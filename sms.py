@@ -8,4 +8,4 @@ auth_token = "bd47541aec30109464db256def130777"
 client = TwilioRestClient(account_sid, auth_token)
  
 message = client.messages.create(to="+19252197076", from_="+14157128352",
-                                     body="Hey there! Thanks for your interest in Dattch! For an iOS download: LINK; For an Andriod download: LINK" 
+                                     body="Hey there! Thanks for your interest in Dattch! For an iOS download: http://taps.io/getdattchios; For an Andriod download: http://taps.io/getdattchandroid" 
